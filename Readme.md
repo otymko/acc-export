@@ -27,6 +27,27 @@ java -jar \path\to\file\bsl-language-server-0.2.1.jar --analyze --srcDir ./src -
 \path\to\file\sonar-scanner.bat -X -D"sonar.login=687caef36034bdf6b1e535fa8f060c518739958d"
 ```
 
+## Пакетный режим
+
+Параметры пакетного режима
+
+* `acc.propertiesPaths` - путь к файлу настроек.
+* `acc.projectKey` - наименование конфигурации в АПК.
+* `acc.sources` - путь к исходникам, исключая каталог src.
+
+Параметры можно передать через файл настроек acc.properties или через параметры запуска. Приоритет у параметров запуска.
+
+Пример скрипта запуска
+
+```
+@chcp 65001
+
+@set RUNNER_IBNAME=/FC:\Sonar\acc
+@set RUNNER_DBUSER=Администратор
+
+@call runner run --command "acc.propertiesPaths=C:\Sonar\sample\acc.properties;" --execute "C:\Sonar\ВыгрузкаРезультатовПроверки.epf" --ordinaryapp=1
+```
+
 ## Проблемые ситуации
 
 Вы можете столкнуться с проблемами исходных кодов конфигурации 1C. Например, в файле модуля могут использоваться одновременно окончания строк LFCR и/или LF(Linux) и\или CR(MacOS). Эту проблему можно исправить, используя Notepad++. Ищем в каталоге **src** по регулярной строке `(\r)[^\n]` и меняем на \r\n (LFCR).
