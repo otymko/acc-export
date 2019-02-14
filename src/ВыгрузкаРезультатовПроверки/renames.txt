@@ -1,9 +1,0 @@
-﻿1a94a142-04fc-482d-bc94-b92bb09e3593.0\info-->und\1a94a142-04fc-482d-bc94-b92bb09e3593.0\info
-1a94a142-04fc-482d-bc94-b92bb09e3593.0\text-->ObjectModule.bsl
-36e2c4d1-9517-4148-9ee1-737c4859902f-->und\36e2c4d1-9517-4148-9ee1-737c4859902f
-36e2c4d1-9517-4148-9ee1-737c4859902f.0-->Form\Форма
-copyinfo-->und\copyinfo
-da247d73-6466-4c93-9eae-4f01b77d698e-->und\da247d73-6466-4c93-9eae-4f01b77d698e
-root-->und\root
-version-->und\version
-versions-->und\versions
