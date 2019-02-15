@@ -49,6 +49,12 @@ java -jar \path\to\file\bsl-language-server-0.2.1.jar --analyze --srcDir ./src -
 @call runner run --command "acc.propertiesPaths=C:\Sonar\sample\acc.properties;" --execute "C:\Sonar\ВыгрузкаРезультатовПроверки.epf" --ordinaryapp=1
 ```
 
+## Замена одиночных CR
+Для замены одиночных CR можно использовать скрипт updatecr.os. Копируем этот скрипт в каталог с проектом. Например: `/sample/updatecr.os`. Далее в консоли выполняем команду в каталоге с проектом:
+```
+oscript updatecr.os
+```
+
 ## Проблемые ситуации
 
 Вы можете столкнуться с проблемами исходных кодов конфигурации 1C. Например, в файле модуля могут использоваться одновременно окончания строк LFCR и/или LF(Linux) и\или CR(MacOS). Эту проблему можно исправить, используя Notepad++. Ищем в каталоге **src** по регулярной строке `(\r)[^\n]` и меняем на \r\n (LFCR).
