@@ -10,7 +10,7 @@
 
 ## Пример использования
 
-1. Выполняем проверку конфигурации через 1С: АПК
+1. Выполняем проверку конфигурации через 1С: АПК. Проверку можно выполнить и из обработки.
 2. Создаем каталог проекта для Sonar. Из каталога **Sample** копируем файл с настройками sonar-scaner **sonar-project.properties**. В файле меняем настройки:
    * sonar.host.url - адрес сервера SonarQube
    * sonar.projectKey - ключ проекта в SonarQube
@@ -20,12 +20,55 @@
 6. Получаем результаты проверки bsl-language-server. Прочитать можно по ссылке https://github.com/1c-syntax/bsl-language-server.
 7. Запускаем sonar-scanner.
 
-Пример скрипта для пунктов 6 и 7. Используем версию **bsl-language-server-0.2.1** Скрипт:
+Пример скрипта для пунктов 6 и 7. Используем версию **bsl-language-server-0.3.0** Скрипт:
 
 ```
-java -jar \path\to\file\bsl-language-server-0.2.1.jar --analyze --srcDir ./src --reporter json
+java -jar \path\to\file\bsl-language-server-0.3.0.jar --analyze --srcDir ./src --reporter json
+
 \path\to\file\sonar-scanner.bat -X -D"sonar.login=687caef36034bdf6b1e535fa8f060c518739958d"
 ```
+
+## Пакетный режим
+
+Параметры пакетного режима
+
+* `acc.propertiesPaths` - путь к файлу настроек.
+* `acc.check` - запустить проверку конфигурации. Настройки будут взяты с параметров запуска по расписанию.
+* `acc.projectKey` - наименование конфигурации в АПК.
+* `acc.sources` - путь к исходникам, исключая каталог src.
+* `acc.format` - формат экспорта из АПК (reportjson или genericissue). По-умолчанию reportjson.
+
+Параметры можно передать через файл настроек acc.properties или через параметры запуска. Приоритет у параметров запуска.
+
+Для использования формата **generic issue** при загрузке отчетов через sonar scanner нужно в конфигурационном файле `sonar-project.properties` указать свойство `sonar.externalIssuesReportPaths=acc-generic-issue.json`.
+
+Пример скрипта запуска
+
+```
+@chcp 65001
+
+@set RUNNER_IBNAME=/FC:\Sonar\acc
+@set RUNNER_DBUSER=Администратор
+
+@call runner run --command "acc.propertiesPaths=C:\Sonar\sample\acc.properties;" --execute "C:\Sonar\ВыгрузкаРезультатовПроверки.epf" --ordinaryapp=1
+```
+
+P.S. Если скрипт не ожидает выполнения сеанса 1С, то скорее всего нужно добавить параметр с нужной версией платформы. Например:
+```
+...
+
+@call runner run --v8version "8.3.10.2772" --command "acc.propertiesPaths=C:\Sonar\sample\acc.properties;" --execute "C:\Sonar\ВыгрузкаРезультатовПроверки.epf" --ordinaryapp=1
+```
+
+## Замена одиночных CR
+Для замены одиночных CR можно использовать скрипт updatecr.os. Копируем этот скрипт в каталог с проектом. Например: `/sample/updatecr.os`. Далее в консоли выполняем команду в каталоге с проектом:
+```
+oscript updatecr.os
+```
+
+## Отладка экспорта из АПК
+
+Для запуска обработки в пользовательском режиме 1С, нужно в параметрах сеанса указать параметр запуска `\Debug` (например через конфигуратор **Сервис** - **Параметры** - **Запуск 1С: Предприятия** - **Основные** и заполнить поле **Параметр запуска**).
 
 ## Проблемые ситуации
 
