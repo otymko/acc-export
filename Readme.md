@@ -2,7 +2,7 @@
 
 ## Минимальные требования
 
-* SonarQube 7.5 и выше
+* SonarQube 7.4 и выше
 * Плаформа 1С 8.3.10 и выше
 * 1С: АПК 1.2.1.53
 * Установленный плагин для SonarQube https://github.com/1c-syntax/sonar-bsl-plugin-community
@@ -35,8 +35,10 @@ java -jar \path\to\file\bsl-language-server-0.3.0.jar --analyze --srcDir ./src -
 * `acc.propertiesPaths` - путь к файлу настроек.
 * `acc.check` - запустить проверку конфигурации. Настройки будут взяты с параметров запуска по расписанию.
 * `acc.projectKey` - наименование конфигурации в АПК.
-* `acc.sources` - путь к исходникам, исключая каталог src.
-* `acc.format` - формат экспорта из АПК (reportjson или genericissue). По-умолчанию reportjson.
+* `acc.catalog` - каталог проекта **(не к src)**
+* `acc.sources` - путь / каталог исходных кодов, например `src`.
+* `acc.format` - формат экспорта из АПК (reportjson или genericissue). По-умолчанию genericissue. Можно не указывать. 
+* `acc.titleError` - представление вывода ошибки при экспорте. Может принимать значения: `code` (только код ошибки), `name` (только наименование ошибки), `codeName` (код и наименование ошибки). По-умолчанию `codeName`.
 
 Параметры можно передать через файл настроек acc.properties или через параметры запуска. Приоритет у параметров запуска.
 
