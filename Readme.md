@@ -20,7 +20,7 @@
 6. Получаем результаты проверки bsl-language-server. Прочитать можно по ссылке https://github.com/1c-syntax/bsl-language-server.
 7. Запускаем sonar-scanner.
 
-Пример скрипта для пунктов 6 и 7. Используем версию **bsl-language-server-0.3.0** Скрипт:
+Пример скрипта для пунктов 6 и 7. Используем версию **bsl-language-server-0.4.0** Скрипт:
 
 ```
 java -jar \path\to\file\bsl-language-server-0.3.0.jar --analyze --srcDir ./src --reporter json
@@ -37,7 +37,7 @@ java -jar \path\to\file\bsl-language-server-0.3.0.jar --analyze --srcDir ./src -
 * `acc.projectKey` - наименование конфигурации в АПК.
 * `acc.catalog` - каталог проекта **(не к src)**
 * `acc.sources` - путь / каталог исходных кодов, например `src`.
-* `acc.format` - формат экспорта из АПК (reportjson или genericissue). По-умолчанию genericissue. Можно не указывать. 
+* `acc.format` - формат экспорта из АПК (reportjson или genericissue). По-умолчанию reportjson. Можно не указывать. 
 * `acc.titleError` - представление вывода ошибки при экспорте. Может принимать значения: `code` (только код ошибки), `name` (только наименование ошибки), `codeName` (код и наименование ошибки). По-умолчанию `codeName`.
 
 Параметры можно передать через файл настроек acc.properties или через параметры запуска. Приоритет у параметров запуска.
