@@ -16,7 +16,7 @@
    * sonar.projectKey - ключ проекта в SonarQube
 3. Выгружаем в папку **src** в каталоге проекта файлы конфигурации (можно сделать из конфигуратора 1С)
 4. Если используются обычные формы, нужно извлечь form.bin. Для этого в каталог проекта копируем из папки **Sample** `run.os`. Запускаем выполнение скрипта в каталоге проекта `oscript run.os`.
-5. Из конфигурации 1С: АПК запускаем обработку `ВыгрузкаРезультатовПроверки.epf`. Заполняем реквизиты: "конфигурация", "каталог проекта". Нажимаем "Выполнить".
+5. Из конфигурации 1С: АПК запускаем обработку `acc-export.epf`. Заполняем реквизиты: "конфигурация", "каталог проекта". Нажимаем "Выполнить".
 6. Получаем результаты проверки bsl-language-server. Прочитать можно по ссылке https://github.com/1c-syntax/bsl-language-server.
 7. Запускаем sonar-scanner.
 
@@ -52,14 +52,14 @@ java -jar \path\to\file\bsl-language-server-0.3.0.jar --analyze --srcDir ./src -
 @set RUNNER_IBNAME=/FC:\Sonar\acc
 @set RUNNER_DBUSER=Администратор
 
-@call runner run --command "acc.propertiesPaths=C:\Sonar\sample\acc.properties;" --execute "C:\Sonar\ВыгрузкаРезультатовПроверки.epf" --ordinaryapp=1
+@call runner run --command "acc.propertiesPaths=C:\Sonar\sample\acc.properties;" --execute "C:\Sonar\acc-export.epf" --ordinaryapp=1
 ```
 
 P.S. Если скрипт не ожидает выполнения сеанса 1С, то скорее всего нужно добавить параметр с нужной версией платформы. Например:
 ```
 ...
 
-@call runner run --v8version "8.3.10.2772" --command "acc.propertiesPaths=C:\Sonar\sample\acc.properties;" --execute "C:\Sonar\ВыгрузкаРезультатовПроверки.epf" --ordinaryapp=1
+@call runner run --v8version "8.3.10.2772" --command "acc.propertiesPaths=C:\Sonar\sample\acc.properties;" --execute "C:\Sonar\acc-export.epf" --ordinaryapp=1
 ```
 
 ## Замена одиночных CR
