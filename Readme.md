@@ -22,7 +22,7 @@
 
 Пример скрипта для пунктов 6 и 7. Используем версию **bsl-language-server-0.4.0** Скрипт:
 
-```
+``` bat
 java -jar \path\to\file\bsl-language-server-0.3.0.jar --analyze --srcDir ./src --reporter json
 
 \path\to\file\sonar-scanner.bat -X -D"sonar.login=687caef36034bdf6b1e535fa8f060c518739958d"
@@ -68,7 +68,7 @@ script {
 ```
 
 P.S. Если скрипт не ожидает выполнения сеанса 1С, то скорее всего нужно добавить параметр с нужной версией платформы. Например:
-```
+``` bat
 ...
 
 @call runner run --v8version "8.3.10.2772" --command "acc.propertiesPaths=C:\Sonar\sample\acc.properties;" --execute "C:\Sonar\acc-export.epf" --ordinaryapp=1
@@ -76,7 +76,7 @@ P.S. Если скрипт не ожидает выполнения сеанса
 
 ## Замена одиночных CR
 Для замены одиночных CR можно использовать скрипт updatecr.os. Копируем этот скрипт в каталог с проектом. Например: `/sample/updatecr.os`. Далее в консоли выполняем команду в каталоге с проектом:
-```
+``` bat
 oscript updatecr.os
 ```
 
