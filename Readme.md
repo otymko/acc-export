@@ -4,7 +4,7 @@
 
 * SonarQube 7.4 и выше
 * Плаформа 1С 8.3.10 и выше
-* 1С: АПК 1.2.1.53
+* 1С: АПК 1.2.3.20
 * Установленный плагин для SonarQube https://github.com/1c-syntax/sonar-bsl-plugin-community
 * Установленный Sonar Scanner https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner
 
@@ -22,7 +22,7 @@
 
 Пример скрипта для пунктов 6 и 7. Используем версию **bsl-language-server-0.4.0** Скрипт:
 
-```
+``` bat
 java -jar \path\to\file\bsl-language-server-0.3.0.jar --analyze --srcDir ./src --reporter json
 
 \path\to\file\sonar-scanner.bat -X -D"sonar.login=687caef36034bdf6b1e535fa8f060c518739958d"
@@ -32,13 +32,16 @@ java -jar \path\to\file\bsl-language-server-0.3.0.jar --analyze --srcDir ./src -
 
 Параметры пакетного режима
 
-* `acc.propertiesPaths` - путь к файлу настроек.
-* `acc.check` - запустить проверку конфигурации. Настройки будут взяты с параметров запуска по расписанию.
-* `acc.projectKey` - наименование конфигурации в АПК.
-* `acc.catalog` - каталог проекта **(не к src)**
-* `acc.sources` - путь / каталог исходных кодов, например `src`.
-* `acc.format` - формат экспорта из АПК (reportjson или genericissue). По-умолчанию reportjson. Можно не указывать. 
-* `acc.titleError` - представление вывода ошибки при экспорте. Может принимать значения: `code` (только код ошибки), `name` (только наименование ошибки), `codeName` (код и наименование ошибки). По-умолчанию `codeName`.
+* `acc.propertiesPaths` - строка. Путь к файлу настроек.
+* `acc.check` - булево. Запустить проверку конфигурации. Ложь, если нужно выгрузить ошибки существующей проверки.
+* `acc.recreateProject` - булево. Пересоздать конфигурацию проверки. АПК кеширует часть ошибок и при перепроверке они все равно отображаются, даже если были исправлены. Установленный флаг создает новую конфигурацию и запускает ее проверку с нуля.
+* `acc.projectKey` - строка. Наименование конфигурации в АПК.
+* `acc.catalog` - строка. Каталог проекта **(не к src)**
+* `acc.sources` - строка. Путь / каталог исходных кодов, например `src`.
+* `acc.format` - строка. Формат экспорта из АПК (reportjson или genericissue). По-умолчанию reportjson. Можно не указывать. 
+* `acc.titleError` - строка. Представление вывода ошибки при экспорте. Может принимать значения: `code` (только код ошибки), `name` (только наименование ошибки), `codeName` (код и наименование ошибки). По-умолчанию `codeName`.
+* `acc.result` - строка. Путь к файлу результату. По умолчанию, КаталогПроекта/acc-generic-issue.json для формата GenericIssue или КаталогПроекта/acc-json.json для reportjson.
+* `acc.objectErrors` - булево. Выгружать ошибки объектов, которые не привязаны к модулю. Например, ошибки в ролях или орфография в элементах формы. Ошибки будут привязаны к первой строке модуля объекта, модуля менеджера или модуля приложения.
 
 Параметры можно передать через файл настроек acc.properties или через параметры запуска. Приоритет у параметров запуска.
 
@@ -46,7 +49,7 @@ java -jar \path\to\file\bsl-language-server-0.3.0.jar --analyze --srcDir ./src -
 
 Пример скрипта запуска
 
-```
+``` bat
 @chcp 65001
 
 @set RUNNER_IBNAME=/FC:\Sonar\acc
@@ -55,8 +58,17 @@ java -jar \path\to\file\bsl-language-server-0.3.0.jar --analyze --srcDir ./src -
 @call runner run --command "acc.propertiesPaths=C:\Sonar\sample\acc.properties;" --execute "C:\Sonar\acc-export.epf" --ordinaryapp=1
 ```
 
-P.S. Если скрипт не ожидает выполнения сеанса 1С, то скорее всего нужно добавить параметр с нужной версией платформы. Например:
+Пример шага из jenkinsfile
+
+``` groovy
+script {
+    def cmd_properties = "\"acc.propertiesPaths=${ACC_PROPERTIES};acc.catalog=${CURRENT_CATALOG};acc.sources=${SRC};acc.result=${TEMP_CATALOG}\\acc.json;acc.projectKey=${PROJECT_KEY};acc.check=${ACC_check};acc.recreateProject=${ACC_recreateProject}\""
+    cmd("runner run --ibconnection /F${ACC_BASE} --db-user ${ACC_USER} --command ${cmd_properties} --execute \"${BIN_CATALOG}acc-export.epf\" --ordinaryapp=1")
+}
 ```
+
+P.S. Если скрипт не ожидает выполнения сеанса 1С, то скорее всего нужно добавить параметр с нужной версией платформы. Например:
+``` bat
 ...
 
 @call runner run --v8version "8.3.10.2772" --command "acc.propertiesPaths=C:\Sonar\sample\acc.properties;" --execute "C:\Sonar\acc-export.epf" --ordinaryapp=1
@@ -64,7 +76,7 @@ P.S. Если скрипт не ожидает выполнения сеанса
 
 ## Замена одиночных CR
 Для замены одиночных CR можно использовать скрипт updatecr.os. Копируем этот скрипт в каталог с проектом. Например: `/sample/updatecr.os`. Далее в консоли выполняем команду в каталоге с проектом:
-```
+``` bat
 oscript updatecr.os
 ```
 
