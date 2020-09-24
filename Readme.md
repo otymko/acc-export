@@ -2,7 +2,7 @@
 
 ## Минимальные требования
 
-* SonarQube 7.4 и выше
+* SonarQube 7.9 и выше
 * Плаформа 1С 8.3.10 и выше
 * 1С: АПК 1.2.3.20
 * Установленный плагин для SonarQube https://github.com/1c-syntax/sonar-bsl-plugin-community
