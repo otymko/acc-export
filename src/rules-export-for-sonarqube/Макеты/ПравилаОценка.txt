@@ -1,0 +1,3818 @@
+﻿[
+{
+"ruleId": "",
+"message": "",
+"filePath": "",
+"severity": "",
+"type": "",
+"effortMinutes": ""
+},
+{
+"ruleId": "100 : Обработчики событий модуля формы_ подключаемые из кода",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "102 : Перенос выражений",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 5
+},
+{
+"ruleId": "1027 : Проверка орфографии в текстах элементов управляемых форм",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "103 : Перенос выражений",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 5
+},
+{
+"ruleId": "1030 : Проверка орфографии в текстах элементов управляемых форм",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "1032 : Проверка орфографии в именах_ синонимах_ подсказке и комментариях объектов метаданных",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "1034 : Проверка орфографии текста во встроенной справке",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "1035 : Проверка орфографии текста в содержимом макетов",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "1036 : Проверка орфографии в текстах модулей с разбором сложных имен",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "104 : Использование директив компиляции",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "108 : Для всех документов рекомендуется создавать реквизит Комментарий",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "109 : Для всех документов рекомендуется создавать реквизит Комментарий",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "1108 : Ведущие объекты в дереве метаданных сортируются по имени по возрастанию",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "1143 : Проверка комментариев на допустимую длину",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 5
+},
+{
+"ruleId": "1145 : Проверка наличия встроенной справки у ведущих объектов",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "BUG",
+"effortMinutes": 120
+},
+{
+"ruleId": "1145 : Проверка наличия встроенной справки у форм",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "BUG",
+"effortMinutes": 120
+},
+{
+"ruleId": "1146 : Проверка наличия встроенной справки у ведущих объектов",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "BUG",
+"effortMinutes": 120
+},
+{
+"ruleId": "1149 : Интерактивное удаление в ролях",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "1150 : Права у ролей \"Полные права\" и \"Администратор системы\"",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "1151 : Синоним объекта метаданных обязательно заполняется",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "1201 : \"Выходные данные\" редакций и версий",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "1201 : \"Выходные данные\" редакций и версий (Совместимо)",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "1202 : \"Выходные данные\" редакций и версий",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "1203 : \"Выходные данные\" редакций и версий",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "1205 : Свойство допустимая длина реквизитов строкового типа",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "1206 : Длина кода (номера) объектов конфигурации",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "1207 : Имена реквизитов (измерений_ ресурсов и т.д.) объектов конфигурации",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "1208 : Имена реквизитов (измерений_ ресурсов и т.д.) объектов конфигурации",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "1210 : Представление объекта",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "1211 : Расширенное представление объекта",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "1214 : Представление списка",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "1215 : Расширенное представление списка",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "1219 : Проверка включения в общую справку у форм",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "BUG",
+"effortMinutes": 120
+},
+{
+"ruleId": "1223 : В сообщениях не употребляются местоимения \"Вы\"_ \"Вас\" и пр.",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "123 : Самодостаточность регистров",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "1242 : Проверка наличия описания для процедур_ функций и переменных",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "1244 : Проверка обращения к прикладным объектам",
+"message": "",
+"filePath": "",
+"severity": "BLOCKER",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "1245 : Проверка общих модулей на совмещение клиент/сервер",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "1248 : Проверка канонического написания ключевых слов",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 5
+},
+{
+"ruleId": "125 : Проверка общих модулей на совмещение клиент/сервер",
+"message": "",
+"filePath": "",
+"severity": "BLOCKER",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "127 : 2.5.5. Все переменные модуля обычного приложения_ модуля управляемого приложения_ модуля сеанса_",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "1297 : Локализация строк интерфейса",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "1297 : Локализация строковых констант в выражениях настроек макетов СКД",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "1298 : Локализация строк интерфейса",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "1299 : Локализация строк интерфейса",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "1300 : Локализация доступных значений полей в запросах макетов \"Схема компоновки данных\"",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "1300 : Локализация запросов в динамических списках управляемых форм",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "1324 : Поиск конструктора Новый ЗащищенноеСоединениеOpenSSL",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "VULNERABILITY",
+"effortMinutes": 10
+},
+{
+"ruleId": "1327 : Проверка наличия блокировки при чтении или записи данных",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "1328 : Проверка наличия блокировки при чтении или записи данных",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "1329 : Проверка использования реквизитов составного типа",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "1330 : Проверка использования реквизитов составного типа",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "1331 : Проверка конкретных значений цветов и шрифтов в элементах управления форм",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "1332 : Проверка конкретных значений цветов и шрифтов в элементах управления форм",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "1339 : Поиск обращения к параметру \"АвтоТест\" в коде модулей",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 5
+},
+{
+"ruleId": "134 : Проверка необязательных параметров процедур и функций",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "1343 : Проверка дублирующихся картинок",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "141 : Проверка необязательных параметров процедур и функций",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "142 : Проверка необязательных параметров процедур и функций",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "143 : Поиск конструкции ТекущаяДата",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "144 : Работа с параметром Отказ в обработчиках событий",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "146 : Установка прав для новых объектов и полей объектов",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "148 : Проверка реквизита \"Ссылка\" в динамических списках",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "149 : Проверка реквизита \"Ссылка\" в динамических списках",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "152 : Локализация журнала регистрации",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "154 : Локализация журнала регистрации",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "156 : Локализация журнала регистрации",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "157 : Локализация журнала регистрации",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "160 : Проверка реквизита \"Ссылка\" в динамических списках",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 5
+},
+{
+"ruleId": "163 : Запрет на использование буквы ё в текстах модулей",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 5
+},
+{
+"ruleId": "164 : Право \"Удаление\" в ролях",
+"message": "",
+"filePath": "",
+"severity": "BLOCKER",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "165 : ДобавитьОбъектВСоответствиеПроверенныхОбъектовИПравил",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "193 : Интерактивное удаление в ролях",
+"message": "",
+"filePath": "",
+"severity": "BLOCKER",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "194 : Интерактивное удаление в ролях",
+"message": "",
+"filePath": "",
+"severity": "BLOCKER",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "195 : Интерактивное удаление в ролях",
+"message": "",
+"filePath": "",
+"severity": "BLOCKER",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "216 : Проверка случайных латинских символов",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "217 : Неправильная кодировка символа \"минус\"",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "219 : Права у ролей \"Полные права\" и \"Администратор системы\"",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "222 : Проверка использования устаревших процедур и функций в подписках на события_ регламентных заданиях и операциях web-сервисов",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "222 : Проверка использования устаревших процедур и функций в тексте модулей",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "223 : Проверка использования устаревших процедур и функций в тексте модулей",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "226 : Проверка привилегированного режима проведения документов",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "227 : Проверка привилегированного режима проведения документов",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "229 : Проверка прав на изменение регистров_ подчиненных регистраторам",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "233 : Настройка ролей и прав доступа для подсистем",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "235 : Проверка орфографии в текстах элементов управляемых форм",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "236 : Проверка синонима объекта с префиксом \"Удалить\"",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "239 : Структура стандартных областей",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "240 : Структура стандартных областей",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "241 : Структура стандартных областей",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "246 : Проверка формата комментария",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "247 : Правила объявления имен переменных",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "250 : Не следует размещать экспортные процедуры и функции в модулях команд и общих команд",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "254 : Проверка канонического написания ключевых слов запроса",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 5
+},
+{
+"ruleId": "263 : Проверка флажка \"Включать в командный интерфейс\" у подсистем",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "265 : Проверка орфографии в именах_ синонимах_ подсказке и комментариях объектов метаданных",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "267 : Контроль наличия подсистемы_ общего модуля_ процедуры (функции) и состава параметров",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "273 : Проверка областей в текстах модулей",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "274 : Проверка областей в текстах модулей",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "275 : Проверка существования элементов формы",
+"message": "",
+"filePath": "",
+"severity": "BLOCKER",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "277 : Обеспечение обратной совместимости библиотек",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "278 : Обеспечение обратной совместимости библиотек",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "280 : Проверка глухих попыток-исключений",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "282 : Поиск закомментированного кода",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "283 : Проверка существования ролей",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "284 : Поиск закомментированного кода",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "286 : Проверка областей в текстах модулей",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "287 : Контроль наличия подсистемы_ общего модуля_ процедуры (функции) и состава параметров",
+"message": "",
+"filePath": "",
+"severity": "BLOCKER",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "290 : Роли_ содержащие в названии \"Чтение\" или \"ДобавлениеИзменение\"",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "291 : Роли_ содержащие в названии \"Чтение\" или \"ДобавлениеИзменение\"",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "293 : Использование объектов типа Структура",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "299 : Поиск неиспользуемых служебных экспортных процедур и функций",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "302 : Проверка наличия вызова ПриНачалеВыполненияРегламентногоЗадания в обработчиках регламентных заданий",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "307 : Описание типов принимаемых параметров и (или) возвращаемых значений в названиях процедур и функций",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 0
+},
+{
+"ruleId": "313 : Длина названия команды",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "319 : Периодичность выполнения регламентных заданий.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "323 : Проверка орфографии в свойствах команд форм",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "324 : Проверка орфографии в свойствах команд форм",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "325 : Проверка использования транзакций",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "327 : Проверка использования транзакций",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "328 : Проверка использования транзакций",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "329 : Проверка использования транзакций",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "330 : Проверка использования транзакций",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "331 : Проверка использования транзакций",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "335 : Локализация дат в коде модулей",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "336 : Поиск метода \"РольДоступна()\"",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "345 : Проверка хранения паролей в реквизитах метаданных",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "346 : Проверка параметров формы",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "347 : Синоним объекта метаданных обязательно заполняется",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "351 : Проверка автоматически сгенерированных наименований элементов форм",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "355 : Проверка орфографии в свойствах команд форм",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "356 : Проверка орфографии в свойствах реквизитов форм",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "357 : Проверка орфографии в свойствах реквизитов форм",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "358 : Проверка орфографии в свойствах параметров форм",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "359 : Проверка ограничений прав доступа (RLS)",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "360 : Проверка ограничений прав доступа (RLS)",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "361 : Проверка заключения серверного кода в инструкцию препроцессора",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "362 : Проверка заключения серверного кода в инструкцию препроцессора",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "363 : Проверка общих модулей на совмещение клиент/сервер",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "374 : Сообщения не должны содержать восклицательных знаков и повелительных тонов",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "375 : Проверка прав на устаревшие объекты метаданных",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "380 : Проверка длины индексов полей таблиц базы данных",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "386 : Проверка условного оформления в формах и динамических списках",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 0
+},
+{
+"ruleId": "387 : Проверка условного оформления в формах и динамических списках",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 0
+},
+{
+"ruleId": "388 : Поиск неэкспортных процедур (функций) в областях \"ПрограммныйИнтерфейс\" и \"СлужебныйПрограммныйИнтерфейс\"",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "389 : Поиск неэкспортных процедур (функций) в областях \"ПрограммныйИнтерфейс\" и \"СлужебныйПрограммныйИнтерфейс\"",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "395 : Проверка ролевой настройки использования команд форм",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "397 : Проверка таймаутов при работе с внешними ресурсами",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "399 : Проверка наличия описания для процедур_ функций и переменных",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "400 : Проверка наличия описания для процедур_ функций и переменных",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "401 : Проверка наличия описания для процедур_ функций и переменных",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "403 : Проверка наличия описания для процедур_ функций и переменных",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "404 : Проверка наличия описания для процедур_ функций и переменных",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "405 : Проверка наличия описания для процедур_ функций и переменных",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "406 : Проверка наличия описания для процедур_ функций и переменных",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "407 : Проверка наличия описания для процедур_ функций и переменных",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "412 : Проверка свойства \"История выбора при вводе\" у объектов метаданных",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "414 : Проверка свойств элементов форм_ ссылающихся на объекты метаданных с историей выбора при вводе",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "417 : Проверка наличия описания для процедур_ функций и переменных",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "418 : Проверка наличия описания для процедур_ функций и переменных",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "420 : Проверка отсутствия ограничений доступа (RLS) в праве \"Удаление\" для всех ролей",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "422 : Настройка прав доступа к константам для ролей \"Полные права\" и \"Администратор системы\"",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "425 : Проверка области \"ОписаниеПеременных\" в текстах модулей",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "433 : Поиск неиспользуемых локальных переменных",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "435 : Проверка возвращаемого значения для модулей с повторным использованием",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "438 : Проверка возвращаемого значения для модулей с повторным использованием",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "441 : Проверка удаления временного файла после использования",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "444 : Проверка возвращаемого значения для модулей с повторным использованием",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "445 : Локализация строковых реквизитов форм_ используемых в элементах форм",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "446 : Локализация заголовков элементов форм",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "447 : Локализация подсказок элементов форм",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "448 : Локализация элементов форм со списком выбора",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "449 : Локализация регламентных заданий",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "456 : Поиск метода \"СтрШаблон()\"",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "459 : Проверка наличия описания для процедур_ функций и переменных",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "463 : Локализация доступных значений полей в запросах макетов \"Схема компоновки данных\"",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "464 : Локализация колонок динамического списка_ получающихся в запросе комбинацией других колонок",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "465 : Локализация полей запроса СКД_ полученных вычислением с заданием синонима",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "466 : Проверка наличия описания для процедур_ функций и переменных",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "472 : Проверка использования платформенных механизмов подключения внешних компонент",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "478 : Проверка использования транзакций",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "483 : Проверка запросов динамических списков",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "484 : Проверка запросов динамических списков",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "487 : Проверка использования Выполнить и Вычислить на сервере",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "488 : Проверка использования Выполнить и Вычислить на сервере",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "492 : Проверка оформления именованных параметров подстановки в функции \"НСтр()\"",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "494 : Проверка соединений с вложенными запросами в макетах СКД",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "494 : Проверка соединений с вложенными запросами в реквизитах динамических списков",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "494 : Проверка соединений с вложенными запросами в текстах модулей",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "495 : Проверка вызовов функции \"КаталогВременныхФайлов()\"",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "497 : Проверка постфикса в имени макета",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "5 : Комментарий",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "507 : Проверка прав ролей на объекты других подсистем",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "511 : Проверка прав ролей на команды",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "514 : Проверка использования ролей_ не дающих права на объекты метаданных",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "524 : Проверка заполненности свойства \"Путь к данным\" у полей динамического списка",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "526 : Проверка наличия директив компиляции у процедур (функций) в модулях форм",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "527 : Проверка использования серверных процедур в качестве обработчиков оповещения",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "531 : Проверка избыточного обращения к объекту в коде модуля",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 0
+},
+{
+"ruleId": "534 : Проверка безопасного запуска приложений",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "538 : Проверка подсистем объектов_ не имеющих визуального представления",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "540 : Проверка сортировки по полю запроса_ которое может потенциально содержать NULL",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 0
+},
+{
+"ruleId": "541 : Настройка прав доступа базовых ролей для объектов метаданных",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "547 : Использование инструкций препроцессора в клиент-серверных общих модулях",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "549 : Контроль наличия обязательных параметров и значений необязательных параметров в рамках одного модуля",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 0
+},
+{
+"ruleId": "549 : Контроль наличия подсистемы_ общего модуля_ процедуры (функции) и состава параметров",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 0
+},
+{
+"ruleId": "557 : Поиск не используемых на клиенте экспортных процедур (функций) из общих модулей с признаком \"ВызовСервера\"",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "558 : Поиск не используемых на клиенте или на сервере экспортных процедур (функций) из общих модулей с признаком \"КлиентСервер\"",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "559 : Поиск не используемых на клиенте или на сервере экспортных процедур (функций) из общих модулей с признаком \"КлиентСервер\"",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "561 : Платформенная проверка конфигурации",
+"message": "",
+"filePath": "",
+"severity": "BLOCKER",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "562 : Платформенная проверка конфигурации",
+"message": "",
+"filePath": "",
+"severity": "BLOCKER",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "563 : Платформенная проверка конфигурации",
+"message": "",
+"filePath": "",
+"severity": "BLOCKER",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "564 : Платформенная проверка конфигурации",
+"message": "",
+"filePath": "",
+"severity": "BLOCKER",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "566 : Платформенная проверка конфигурации",
+"message": "",
+"filePath": "",
+"severity": "BLOCKER",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "567 : Платформенная проверка конфигурации",
+"message": "",
+"filePath": "",
+"severity": "BLOCKER",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "568 : Платформенная проверка конфигурации",
+"message": "",
+"filePath": "",
+"severity": "BLOCKER",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "569 : Платформенная проверка конфигурации",
+"message": "",
+"filePath": "",
+"severity": "BLOCKER",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "570 : Платформенная проверка конфигурации",
+"message": "",
+"filePath": "",
+"severity": "BLOCKER",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "571 : Платформенная проверка конфигурации",
+"message": "",
+"filePath": "",
+"severity": "BLOCKER",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "572 : Платформенная проверка конфигурации",
+"message": "",
+"filePath": "",
+"severity": "BLOCKER",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "573 : Платформенная проверка конфигурации",
+"message": "",
+"filePath": "",
+"severity": "BLOCKER",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "58 : Имена реквизитов (измерений_ ресурсов и т.д.) объектов конфигурации",
+"message": "",
+"filePath": "",
+"severity": "SKIP",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "580 : Поиск не используемых на клиенте или на сервере экспортных процедур (функций) из общих модулей с признаком \"КлиентСервер\"",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "581 : Поиск неиспользуемых служебных экспортных процедур и функций",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "62 : \"Выходные данные\" редакций и версий",
+"message": "",
+"filePath": "",
+"severity": "SKIP",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "63 : \"Выходные данные\" редакций и версий",
+"message": "",
+"filePath": "",
+"severity": "SKIP",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "64 : \"Выходные данные\" редакций и версий",
+"message": "",
+"filePath": "",
+"severity": "SKIP",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "65 : Поиск \"ПолучитьФорму\"",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "68 : Поиск \"ДанныеФормыВЗначение\"",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 0
+},
+{
+"ruleId": "69 : Поиск \"Сообщить()\"",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "7 : Запрет на букву ё",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "72 : \"Выходные данные\" редакций и версий",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "72 : \"Выходные данные\" редакций и версий (Совместимо)",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "73 : Проверка общих модулей на совмещение клиент/сервер",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "75 : Обработчик события ПередЗаписью",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "75 : Обработчик события ПередУдалением",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "75 : Обработчик события ПриЗаписи",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "76 : \"Выходные данные\" редакций и версий",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "78 : Не следует размещать экспортные процедуры и функции в модулях форм",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "82 : Проверка использования управляемых форм в обычном приложении",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "84 : Проверка общих модулей на совмещение клиент/сервер",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "85 : Проверка общих модулей на совмещение клиент/сервер",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "86 : Синоним объекта метаданных обязательно заполняется",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "87 : Проверка орфографии в именах_ синонимах_ подсказке и комментариях объектов метаданных",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "90 : Проверка общих модулей на совмещение клиент/сервер",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "93 : Представление объекта и списка",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "96 : Поиск \"ОБЪЕДИНИТЬ\"",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "CanonicalSpellingKeywords",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 5
+},
+{
+"ruleId": "DeprecatedMessage",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 2
+},
+{
+"ruleId": "EmptyCodeBlock",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "EmptyStatement",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "FunctionShouldHaveReturn",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "IfElseDuplicatedCodeBlock",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "IfElseDuplicatedCondition",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "IfElseIfEndsWithElse",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "CODE_SMELL",
+"effortMinutes": 20
+},
+{
+"ruleId": "LineLength",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 20
+},
+{
+"ruleId": "MethodSize",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "CODE_SMELL",
+"effortMinutes": 60
+},
+{
+"ruleId": "NestedConstructorsInStructureDeclaration",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "NestedTernaryOperator",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "NumberOfOptionalParams",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 60
+},
+{
+"ruleId": "NumberOfParams",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 60
+},
+{
+"ruleId": "NumberOfValuesInStructureConstructor",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "OneStatementPerLine",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 5
+},
+{
+"ruleId": "OrderOfParams",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 30
+},
+{
+"ruleId": "platform",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "SelfAssign",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "SemicolonPresence",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 15
+},
+{
+"ruleId": "UsingCancelParameter",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "UsingFindElementByString",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "CODE_SMELL",
+"effortMinutes": 2
+},
+{
+"ruleId": "UsingServiceTag",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 0
+},
+{
+"ruleId": "YoLetterUsage",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "Бессмысленное (автосгенерированное) имя элемента формы.",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "В запросе отсутствует проверка на NULL для поля_ которое может потенциально содержать NULL.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "В конструкторе объекта типа \"Структура\" указано более 3-х значений свойств.",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "В модуле должны быть определены стандартные области.",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 15
+},
+{
+"ruleId": "В начале процедуры обработки регламентного задания отсутствует вызов процедуры \"ОбщегоНазначения.ПриНачалеВыполненияРегламентногоЗадания();\".",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 15
+},
+{
+"ruleId": "В параметре \"ИмяСобытия\" метода \"ЗаписьЖурналаРегистрации()\" имеется лишний пробел после точки.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "В переопределяемом общем модуле описана лишняя внешняя область (должна быть только область \"ПрограммныйИнтерфейс\").",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 5
+},
+{
+"ruleId": "В переопределяемом общем модуле описана функция.",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 20
+},
+{
+"ruleId": "В реквизит формы присвоена нелокализованная строка.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "В структуре модуля присутствуют пустые области.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "В тексте запроса находится строковый литерал.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "В тексте модуля содержатся служебные комментарии.",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "Возврат константы типа Булево в модуле с повторным использованием.",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 30
+},
+{
+"ruleId": "Возврат константы типа Строка в модуле с повторным использованием.",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 30
+},
+{
+"ruleId": "Возможно неиспользуемая экспортная процедура (функция).",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Возможно, выражение не является объектом коллекции",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "Возможно, недостижимое выражение",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "Возможно, неиспользуемая экспортная процедура (функция).",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Возможно, переменная %1 еще не была проинициализирована",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Возможно, переменная %1 никогда не была проинициализирована",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Возможно, строковый литерал содержит ошибку",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 30
+},
+{
+"ruleId": "Возможно_ неиспользуемая экспортная процедура (функция).",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Вызов функции \"КаталогВременныхФайлов()\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Вызов функции БСП \"ОбщегоНазначения.ОписаниеЗащитыБезПредупреждений()\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Выполняется неявная передача обязательного параметра.",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Данный модуль не поддерживает данный тип директив компиляции",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 0
+},
+{
+"ruleId": "Длина комментария превышает 120 символов.",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "Для команды формы %1 назначен обработчик %1, но метод с таким именем отсутствует в модуле формы",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "Для параметра \"ИмяСобытия\" метода \"ЗаписьЖурналаРегистрации()\" не задан основной язык конфигурации.",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 30
+},
+{
+"ruleId": "Для события %1 элемента формы %1 назначен обработчик %1, но метод с таким именем отсутствует в модуле формы",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "Для события формы %1 назначен обработчик %1, но метод с таким именем отсутствует в модуле формы",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "Если в параметре \"Комментарий\" метода \"ЗаписьЖурналаРегистрации()\" указано подробное описание ошибки_ то уровень журнала должен быть \"Ошибка\".",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Закомментированный код или отсутствие пробела в комментарии после знака \"//\".",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 15
+},
+{
+"ruleId": "Закомментированный код содержит запрещенный символ.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Избыточная проверка параметра \"АвтоТест\".",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Избыточное ключевое слово \"Экспорт\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 15
+},
+{
+"ruleId": "Избыточное обращение внутри модуля через его имя или псевдоним ЭтотОбъект (к методу свойству или реквизиту).",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Избыточное обращение внутри модуля через его имя или псевдоним ЭтотОбъект (к методу, свойству или реквизиту).",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Избыточное обращение внутри модуля через его имя или псевдоним ЭтотОбъект (к методу_ свойству или реквизиту).",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Имена переменных не должны начинаться с подчеркивания.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "Имена переменных не должны состоять из одного символа.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "Использован конструктор \"Новый ЗащищенноеСоединениеOpenSSL\".",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Использован метод \"ПолучитьФорму()\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 60
+},
+{
+"ruleId": "Использован метод \"РольДоступна()\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Использован метод \"Сообщить()\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Использован обработчик событий_ подключаемый из кода и не содержащий префикса \"Подключаемый_\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Использована директива компиляции.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Использована инструкция препроцессора в клиент-серверном общем модуле.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "CODE_SMELL",
+"effortMinutes": 30
+},
+{
+"ruleId": "Использована конструкция \"ДанныеФормыВЗначение()\".",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "Использована конструкция \"ДЛЯ ИЗМЕНЕНИЯ\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Использована конструкция \"ОБЪЕДИНИТЬ\".",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Использована неправильная конструкция при установке внешней компоненты.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Использование запроса_ выполняющего соединение с вложенным запросом.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Использование устаревшей процедуры.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Использование устаревшей функции.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Использование функции \"ТекущаяДата()\".",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Ключевое слово запроса написано не канонически.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Ключевое слово написано не канонически.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Код в модуле с (возможным) программным интерфейсом размещен вне стандартных областей.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "Код никогда не будет скомпилирован",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Код размещен вне стандартных областей.",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 5
+},
+{
+"ruleId": "Количество необязательных параметров более 3.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Количество параметров более 7.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Количество параметров вызова процедуры или функции не соответствует количеству параметров ее определения.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Конструкция \"Попытка...Исключение...КонецПопытки\" не содержит кода в исключении.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 15
+},
+{
+"ruleId": "Локализуемая строка начинается или заканчивается непечатаемым символом (например: пробел таб перенос).",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 15
+},
+{
+"ruleId": "Локализуемая строка начинается или заканчивается непечатаемым символом (например: пробел, таб, перенос).",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Локализуемая строка начинается или заканчивается непечатаемым символом (например: пробел_ таб_ перенос).",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Метод устарел",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Название процедуры (функции) содержит описание типов принимаемых параметров или возвращаемых значений.",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 15
+},
+{
+"ruleId": "Найдена экспортная процедура или функция в модуле команды.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Найдена экспортная процедура или функция в модуле формы.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Нарушен синтаксис описания локализованной строки. Должен быть \"НСтр(\"ru='...'\")\"  или \"NStr(\"en='...'\")\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Нарушена схема работы с транзакциями: вызов \"ЗафиксироватьТранзакцию()\" находится вне конструкции \"Попытка... Исключение\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Нарушена схема работы с транзакциями: вызов \"ОтменитьТранзакцию()\" отсутствует в конструкции \"Исключение... КонецПопытки\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Нарушена схема работы с транзакциями: для вызова \"НачатьТранзакцию()\" отсутствует парный вызов \"ЗафиксироватьТранзакцию()\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Нарушена схема работы с транзакциями: для вызова \"НачатьТранзакцию()\" отсутствует парный вызов \"ОтменитьТранзакцию()\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Нарушена схема работы с транзакциями: между \"ЗафиксироватьТранзакцию()\" и \"Исключение\" есть исполняемый код_ который может вызвать исключение.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Нарушена схема работы с транзакциями: между \"Исключение\" и \"ОтменитьТранзакцию()\" есть исполняемый код.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Нарушена схема работы с транзакциями: между \"НачатьТранзакцию()\" и \"Попытка\" есть исполняемый код.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Нарушена схема работы с транзакциями: не найден оператор \"Попытка\" после вызова \"НачатьТранзакцию()\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Нарушена схема работы с транзакциями: отсутствует вызов \"НачатьТранзакцию()\"_ хотя вызываются \"ЗафиксироватьТранзакцию()\"/\"ОтменитьТранзакцию()\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Нарушена схема работы с транзакциями: преждевременный выход из блока \"Попытка..Исключение\" без завершения или отмены транзакции.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 15
+},
+{
+"ruleId": "Не задан таймаут для объекта при работе с внешними ресурсами.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Не задано описание некоторых свойств возвращаемого значения в комментарии к экспортной функции.",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Не заполнен параметр \"РегламентноеЗадание\" при вызове процедуры \"ОбщегоНазначения.ПриНачалеВыполненияРегламентногоЗадания();\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Не локализован параметр \"ИмяСобытия\" метода \"ЗаписьЖурналаРегистрации()\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Не найден объект переадресации из гиперссылки \"См. ...\" в комментарии к экспортной процедуре (функции).",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 15
+},
+{
+"ruleId": "Не описаны некоторые параметры в секции \"Параметры\" в комментарии к экспортной процедуре (функции).",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 15
+},
+{
+"ruleId": "Не рекомендуется создавать подсистемы глубиной вложенности более трех",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 0
+},
+{
+"ruleId": "Небезопасное подключение внешнего отчета.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Небезопасное подключение внешней обработки.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Небезопасное подключение внешних компонент.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Небезопасный запуск приложения.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Неверно задан именованный параметр подстановки.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Недопустимый вызов служебного программного интерфейса.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Недопустимый вызов служебной процедуры или функции другой подсистемы.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Недостаточное число параметров",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Недостаточное число параметров для типа(ов)",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Неизвестный оператор",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Неиспользуемая локальная переменная %1",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Неиспользуемый метод %1",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Неиспользуемый метод %1",
+"message": "Неиспользуемый метод \"Подключаемый_.*",
+"filePath": "",
+"severity": "SKIP",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "Некорректно описан тип некоторых параметров в секции \"Параметры\" в комментарии к экспортной процедуре (функции).",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 15
+},
+{
+"ruleId": "Некорректно описан тип некоторых свойств возвращаемого значения в комментарии к экспортной функции.",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 15
+},
+{
+"ruleId": "Некорректно описаны некоторые параметры в секции \"Параметры\" в комментарии к экспортной процедуре (функции).",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 15
+},
+{
+"ruleId": "Некорректно оформлена гиперссылка \"См. ...\" в комментарии к экспортной процедуре (функции).",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 15
+},
+{
+"ruleId": "Некорректное значение свойства %1. Измерение адресации удалено или принадлежит другому регистру сведений",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "Некорректное значение свойства %1. Неразделенный объект метаданных участвует в разделенном плане обмена. Oбъект метаданных входит в план обмена %1, разделяет план обмена %1 но не разделяет объект метаданных %1",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "Нельзя передавать объект типа %1 между клиентом и сервером",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Нельзя присваивать атрибуту формы значение типа %1",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Необязательные параметры расположены перед обязательными.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Неправильная кодировка символа \"минус\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Неправильный перенос текста в выражении.",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "Неправильный порядок стандартных областей в коде.",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "Нестандартные секции в описании экспортной процедуры (функции).",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "BUG",
+"effortMinutes": 5
+},
+{
+"ruleId": "Нет вызовов служебной экспортной процедуры (функции).",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 15
+},
+{
+"ruleId": "Нет пробела в начале комментария.",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Нет соответствия между ожидаемыми типами (%1) и полученными типами (%1)",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Неэкспортная переменная не используется в модуле.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Неэкспортная процедура (функция) в разделе \"ПрограммныйИнтерфейс\".",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Неэкспортная процедура (функция) в разделе \"СлужебныйПрограммныйИнтерфейс\".",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Обнаружен вызов метода \"Выполнить\" вместо \"ОбщегоНазначения.ВыполнитьВБезопасномРежиме()\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "VULNERABILITY",
+"effortMinutes": 20
+},
+{
+"ruleId": "Обнаружен вызов метода \"Вычислить\" вместо \"ОбщегоНазначения.ВычислитьВБезопасномРежиме()\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "VULNERABILITY",
+"effortMinutes": 20
+},
+{
+"ruleId": "Обнаружена нелокализованная дата.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Обработчик события заключен в инструкцию препроцессора: \"#Если Сервер Или ТолстыйКлиентОбычноеПриложение Или ВнешнееСоединение Тогда...\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Обработчиком оповещения назначена серверная процедура.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Обращение к несуществующей процедуре (функции).",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Обращение к несуществующему общему модулю.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Обращение к несуществующему объекту метаданных.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Обращение к несуществующему параметру формы.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Обращение к несуществующему элементу формы.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Обращение к полям регистратора.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Объект данного тип не может быть создан через оператор %1",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Описана секция \"Параметры\" в комментарии к экспортной процедуре (функции) не имеющей параметров.",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Описание возвращаемого значения в секции \"Возвращаемое значение\" должно начинаться с новой строки в комментарии к экспортной функции.",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Описание процедуры (функции) размещено в середине а не в начале комментария; либо описание параметра без отступа.",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Описание процедуры (функции) размещено в середине, а не в начале комментария; либо описание параметра без отступа.",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Описание процедуры (функции) размещено в середине_ а не в начале комментария; либо описание параметра без отступа.",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Описаны лишние параметры в секции \"Параметры\" в комментарии к экспортной процедуре (функции).",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Орфографическая ошибка в тексте модуля.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Отсутствует включение безопасного режима перед вызовом метода \"Выполнить\" или \"Вычислить\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "VULNERABILITY",
+"effortMinutes": 30
+},
+{
+"ruleId": "Отсутствует или неверно описана секция \"Возвращаемое значение\" в комментарии к экспортной функции.",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Отсутствует или неверно описана секция \"Параметры\" в комментарии к экспортной процедуре (функции).",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Отсутствует исключительная управляемая блокировка на записываемые (удаляемые) данные.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Отсутствует комментарий к экспортной процедуре (функции).",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Отсутствует область \"ОписаниеПеременных\" в тексте модуля.",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Отсутствует обязательная конструкция \"Если ОбменДанными.Загрузка Тогда ...\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Отсутствует описание типа или содержания возвращаемого значения в комментарии к экспортной функции.",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Отсутствует описание у экспортной переменной.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Отсутствует разделяемая управляемая блокировка на читаемые данные.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Отсутствует удаление временного файла после использования.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Ошибка платформенной проверки конфигурации: Возможно ошибочное свойство.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Ошибка платформенной проверки конфигурации: Возможно ошибочный метод.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Ошибка платформенной проверки конфигурации: Возможно ошибочный параметр.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Ошибка платформенной проверки конфигурации: Использование модального вызова.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Ошибка платформенной проверки конфигурации: Использование синхронного вызова.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Ошибка платформенной проверки конфигурации: Не обнаружено ссылок на процедуру.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Ошибка платформенной проверки конфигурации: Не обнаружено ссылок на функцию.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Ошибка платформенной проверки конфигурации: Отсутствует обработчик.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Ошибка платформенной проверки конфигурации: Переменная не определена.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Ошибка платформенной проверки конфигурации: Процедура или функция с указанным именем не определена.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Ошибка платформенной проверки конфигурации: Пустой обработчик.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Параметр \"ИмяСобытия\" метода \"ЗаписьЖурналаРегистрации()\" инициализируется переменной_ содержащей нелокализованную строку.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Параметры вызова функции скопированы из определения вызываемой процедуры (функции).",
+"message": "",
+"filePath": "",
+"severity": "INFO",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "Переменная %1 не определена",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "После инициализации блокировки отсутствует вызов \"Заблокировать()\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "При локализации параметра \"ИмяСобытия\" для получения кода языка следует использовать функцию ОбщегоНазначенияКлиентСервер.КодОсновногоЯзыка().",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Присвоение параметру \"Отказ\" значения_ отличного от \"Истина\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Программная установка свойств динамического списка выполняется без помощи процедуры \"ОбщегоНазначения.УстановитьСвойстваДинамическогоСписка()\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Процедура или функция %1 не определена",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Процедура переопределяемого общего модуля содержит лишний код (должен быть только код вида \"<ИмяМодуля>.<ИмяПроцедуры>(<Параметры>);\").",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Пустой метод %1",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Рекомендуется доступ к перечислимым свойствам объектов метаданных через системные перечисления",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Свойство %1 не предназначено для записи у типа %1",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Свойство (метод) объекта не обнаружено",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Серверный код не заключен в инструкцию препроцессора: \"#Если Сервер Или ТолстыйКлиентОбычноеПриложение Или ВнешнееСоединение Тогда...\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Синтаксическая ошибка. Неверный ввод %1 - ожидается %1",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Синтаксическая ошибка. Недопустимая лексема %1 в данном контексте",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Синтаксическая ошибка. Пропущена лексема %1 у %1",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Слишком много параметров",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Слишком много параметров для типа(ов)",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Слово содержит кириллицу и латиницу.",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 20
+},
+{
+"ruleId": "Сообщение содержит восклицательный знак.",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "Сообщение содержит нерекомендуемое местоимение (\"Вы\", \"Вас\" и пр.).",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "Сообщение содержит нерекомендуемое местоимение (\"Вы\"_ \"Вас\" и пр.).",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "CODE_SMELL",
+"effortMinutes": 10
+},
+{
+"ruleId": "Стандартная область является вложенной.",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Строка должна находиться в конце предыдущей.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Строка не локализована. Возможно она видна пользователю.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Строка не локализована. Возможно, она видна пользователю.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Строка не локализована. Возможно_ она видна пользователю.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Строка текста модуля содержит букву \"ё\".",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Тип %1 не определен",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 0
+},
+{
+"ruleId": "Тип %1 неопределен",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "У процедуры (функции) в модуле формы отсутствует директива компиляции.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Устаревшая процедура (функция) ссылается на другую устаревшую процедуру (функцию).",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Устаревшая процедура (функция) ссылается на несуществующую процедуру (функцию).",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Устаревшая процедура (функция) ссылается на процедуру (функцию)_ расположенную вне области \"ПрограммныйИнтерфейс\".",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 10
+},
+{
+"ruleId": "Функция %1 не определена",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Функция должна возвращать значение",
+"message": "",
+"filePath": "",
+"severity": "MINOR",
+"type": "BUG",
+"effortMinutes": 20
+},
+{
+"ruleId": "Экспортная процедура (функция) в области \"ПрограммныйИнтерфейс\" в общем модуле с повторным использованием.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Экспортная процедура (функция) из модуля с признаком \"ВызовСервера\" не вызывается на клиенте.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Экспортная процедура (функция) из модуля с признаком \"КлиентСервер\" не вызывается на клиенте.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Экспортная процедура (функция) из модуля с признаком \"КлиентСервер\" не вызывается на сервере.",
+"message": "",
+"filePath": "",
+"severity": "MAJOR",
+"type": "BUG",
+"effortMinutes": 30
+},
+{
+"ruleId": "Экспортная процедура в модуле с повторным использованием.",
+"message": "",
+"filePath": "",
+"severity": "CRITICAL",
+"type": "BUG",
+"effortMinutes": 20
+}
+]

@@ -1,0 +1,11 @@
+﻿03dbba11-2fd3-4b0d-bb1f-58994dcda573-->und\03dbba11-2fd3-4b0d-bb1f-58994dcda573
+03dbba11-2fd3-4b0d-bb1f-58994dcda573.0-->Form\ФормаРедактор
+1bf15cc9-0f33-4a5f-910a-ee6f82a9daa6.0\info-->und\1bf15cc9-0f33-4a5f-910a-ee6f82a9daa6.0\info
+1bf15cc9-0f33-4a5f-910a-ee6f82a9daa6.0\text-->ObjectModule.bsl
+767be39e-b28e-4549-9739-5b2d811f8b65-->und\767be39e-b28e-4549-9739-5b2d811f8b65
+767be39e-b28e-4549-9739-5b2d811f8b65.0-->und\767be39e-b28e-4549-9739-5b2d811f8b65.0
+7da5e642-6ee1-4224-9394-18c7d97cff8a-->und\7da5e642-6ee1-4224-9394-18c7d97cff8a
+copyinfo-->und\copyinfo
+root-->und\root
+version-->und\version
+versions-->und\versions
